@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B31111B1E7FA3D900873643 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31111A1E7FA3D900873643 /* WebViewController.swift */; };
+		1B8B8C601E7F68A00018C6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8B8C5F1E7F68A00018C6A7 /* AppDelegate.swift */; };
+		1B8B8C651E7F68A00018C6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8B8C631E7F68A00018C6A7 /* Main.storyboard */; };
+		1B8B8C671E7F68A00018C6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8B8C661E7F68A00018C6A7 /* Assets.xcassets */; };
+		1B8B8C6A1E7F68A00018C6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8B8C681E7F68A00018C6A7 /* LaunchScreen.storyboard */; };
+		1B8B8C741E7F70710018C6A7 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8B8C731E7F70710018C6A7 /* GitHubAPI.swift */; };
+		1B90C6D91E835FB900575E97 /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90C6D81E835FB900575E97 /* Observable+ObjectMapper.swift */; };
+		1B90C6DB1E83607200575E97 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90C6DA1E83607200575E97 /* GitHubModel.swift */; };
+		1B90C6DD1E83611B00575E97 /* GitHubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90C6DC1E83611B00575E97 /* GitHubViewModel.swift */; };
+		1B90C6DF1E838F4D00575E97 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B90C6DE1E838F4D00575E97 /* TestViewController.swift */; };
+		CD9018B5CD88506C0875B520 /* Pods_YuMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B521F926829593EACA930F /* Pods_YuMoya.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B31111A1E7FA3D900873643 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1B8B8C5C1E7F68A00018C6A7 /* YuMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8B8C5F1E7F68A00018C6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B8B8C641E7F68A00018C6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B8B8C661E7F68A00018C6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B8B8C691E7F68A00018C6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B8B8C6B1E7F68A00018C6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8B8C731E7F70710018C6A7 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		1B90C6D81E835FB900575E97 /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		1B90C6DA1E83607200575E97 /* GitHubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		1B90C6DC1E83611B00575E97 /* GitHubViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubViewModel.swift; sourceTree = "<group>"; };
+		1B90C6DE1E838F4D00575E97 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		5869FB3DA51AD612F63B58F6 /* Pods-YuMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuMoya/Pods-YuMoya.release.xcconfig"; sourceTree = "<group>"; };
+		BCF44D4342F4CA063415D8B4 /* Pods-YuMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuMoya/Pods-YuMoya.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B521F926829593EACA930F /* Pods_YuMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8B8C591E7F68A00018C6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9018B5CD88506C0875B520 /* Pods_YuMoya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8B8C531E7F68A00018C6A7 = {
+			isa = PBXGroup;
+			children = (
+				1B8B8C5E1E7F68A00018C6A7 /* YuMoya */,
+				1B8B8C5D1E7F68A00018C6A7 /* Products */,
+				6101EF3FD9E530A46FD8DE93 /* Pods */,
+				DEC82972C103F850D32E5A98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8B8C5D1E7F68A00018C6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8B8C5C1E7F68A00018C6A7 /* YuMoya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8B8C5E1E7F68A00018C6A7 /* YuMoya */ = {
+			isa = PBXGroup;
+			children = (
+				1B8B8C5F1E7F68A00018C6A7 /* AppDelegate.swift */,
+				1B31111A1E7FA3D900873643 /* WebViewController.swift */,
+				1B90C6DE1E838F4D00575E97 /* TestViewController.swift */,
+				1B8B8C631E7F68A00018C6A7 /* Main.storyboard */,
+				1B8B8C661E7F68A00018C6A7 /* Assets.xcassets */,
+				1B8B8C681E7F68A00018C6A7 /* LaunchScreen.storyboard */,
+				1B8B8C6B1E7F68A00018C6A7 /* Info.plist */,
+				1B8B8C731E7F70710018C6A7 /* GitHubAPI.swift */,
+				1B90C6DA1E83607200575E97 /* GitHubModel.swift */,
+				1B90C6DC1E83611B00575E97 /* GitHubViewModel.swift */,
+				1B90C6D81E835FB900575E97 /* Observable+ObjectMapper.swift */,
+			);
+			path = YuMoya;
+			sourceTree = "<group>";
+		};
+		6101EF3FD9E530A46FD8DE93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF44D4342F4CA063415D8B4 /* Pods-YuMoya.debug.xcconfig */,
+				5869FB3DA51AD612F63B58F6 /* Pods-YuMoya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEC82972C103F850D32E5A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B521F926829593EACA930F /* Pods_YuMoya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B8B8C5B1E7F68A00018C6A7 /* YuMoya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8B8C6E1E7F68A00018C6A7 /* Build configuration list for PBXNativeTarget "YuMoya" */;
+			buildPhases = (
+				0ABC803B5B313C972EA58E32 /* [CP] Check Pods Manifest.lock */,
+				1B8B8C581E7F68A00018C6A7 /* Sources */,
+				1B8B8C591E7F68A00018C6A7 /* Frameworks */,
+				1B8B8C5A1E7F68A00018C6A7 /* Resources */,
+				89B2C501FD52E79EAD148405 /* [CP] Embed Pods Frameworks */,
+				A623AEFD5BA346068CB10CDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuMoya;
+			productName = YuMoya;
+			productReference = 1B8B8C5C1E7F68A00018C6A7 /* YuMoya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8B8C541E7F68A00018C6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tsung Han Yu";
+				TargetAttributes = {
+					1B8B8C5B1E7F68A00018C6A7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y4L84BS83X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B8B8C571E7F68A00018C6A7 /* Build configuration list for PBXProject "YuMoya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B8B8C531E7F68A00018C6A7;
+			productRefGroup = 1B8B8C5D1E7F68A00018C6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8B8C5B1E7F68A00018C6A7 /* YuMoya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8B8C5A1E7F68A00018C6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8B8C6A1E7F68A00018C6A7 /* LaunchScreen.storyboard in Resources */,
+				1B8B8C671E7F68A00018C6A7 /* Assets.xcassets in Resources */,
+				1B8B8C651E7F68A00018C6A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABC803B5B313C972EA58E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89B2C501FD52E79EAD148405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuMoya/Pods-YuMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A623AEFD5BA346068CB10CDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuMoya/Pods-YuMoya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8B8C581E7F68A00018C6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90C6D91E835FB900575E97 /* Observable+ObjectMapper.swift in Sources */,
+				1B90C6DF1E838F4D00575E97 /* TestViewController.swift in Sources */,
+				1B90C6DB1E83607200575E97 /* GitHubModel.swift in Sources */,
+				1B8B8C741E7F70710018C6A7 /* GitHubAPI.swift in Sources */,
+				1B8B8C601E7F68A00018C6A7 /* AppDelegate.swift in Sources */,
+				1B90C6DD1E83611B00575E97 /* GitHubViewModel.swift in Sources */,
+				1B31111B1E7FA3D900873643 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B8B8C631E7F68A00018C6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8B8C641E7F68A00018C6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B8B8C681E7F68A00018C6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8B8C691E7F68A00018C6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B8B8C6C1E7F68A00018C6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B8B8C6D1E7F68A00018C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B8B8C6F1E7F68A00018C6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF44D4342F4CA063415D8B4 /* Pods-YuMoya.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4L84BS83X;
+				INFOPLIST_FILE = YuMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.YuMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B8B8C701E7F68A00018C6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5869FB3DA51AD612F63B58F6 /* Pods-YuMoya.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4L84BS83X;
+				INFOPLIST_FILE = YuMoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.YuMoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8B8C571E7F68A00018C6A7 /* Build configuration list for PBXProject "YuMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8B8C6C1E7F68A00018C6A7 /* Debug */,
+				1B8B8C6D1E7F68A00018C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8B8C6E1E7F68A00018C6A7 /* Build configuration list for PBXNativeTarget "YuMoya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8B8C6F1E7F68A00018C6A7 /* Debug */,
+				1B8B8C701E7F68A00018C6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B8B8C541E7F68A00018C6A7 /* Project object */;
+}
